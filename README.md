@@ -2,9 +2,9 @@
 
 A Surviving Mars: Relaunched 1.1 mod.
 
-Adds a **Skeleton Crew** upgrade to staffed workplaces (hospitals, labs, security stations, factories, farms, and others). Once built, the building can run without Colonists at **50 Performance**. If people are working, the game uses whichever is higher — the crew or the automation floor.
+Adds a **Skeleton Crew** upgrade to medical, research, security, and farm workplaces. Once built, the building can run without Colonists at **50 Performance**. If people are working, the game uses whichever is higher — the crew or the automation floor.
 
-Default cost: **50 Metals, 20 Electronics, 20 Machine Parts**.
+Default cost: **50 Metals, 20 Electronics, 20 Machine Parts**. No Exotic Minerals.
 
 Uses the vanilla `automation` / `auto_performance` workplace properties (same system as Extractor AI and Eternal Fusion).
 

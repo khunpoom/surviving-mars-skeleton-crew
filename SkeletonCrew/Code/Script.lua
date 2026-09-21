@@ -52,18 +52,33 @@ local INCLUDE_IDS = {
 	SecurityStation = true,
 	SecurityPostCCP1 = true,
 	SecretPolice = true,
+	Farm = true,
+	HydroponicFarm = true,
+	FungalFarm = true,
+	FungalFarm_Asteroid = true,
+	InsidePasture = true,
+	OpenPasture = true,
+	FarmInsect = true,
+	FarmSmall = true,
+	FarmUnderground = true,
+	FarmSmallUnderground = true,
 }
 
 local INCLUDE_LABELS = {
 	MedicalBuilding = true,
 	ResearchBuildings = true,
 	SecurityBuildings = true,
+	AllFarms = true,
+	InsideFarm = true,
+	Ranches = true,
 }
 
 local INCLUDE_CATEGORIES = {
 	MedicalStations = true,
 	ResearchLabs = true,
 	SecurityStations = true,
+	Farms = true,
+	Ranches = true,
 }
 
 local function G(name)

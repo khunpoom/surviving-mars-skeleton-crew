@@ -1,8 +1,10 @@
 return PlaceObj("ModDef", {
 	"title", "Skeleton Crew",
-	"description", [[Adds a Skeleton Crew upgrade to workplaces (hospitals, labs, security stations, factories, farms, and other staffed buildings).
+	"description", [[Adds a Skeleton Crew upgrade to medical buildings, research labs, Hawking Institutes, security stations, and farms (hydroponics, fungal farms, pastures, etc.).
 
 Once built, the building can operate without Colonists at 50 Performance. If people are working, the game uses whichever is higher — the crew or the automation floor.
+
+Factories, grocers, and stores are not included — Breakthroughs already cover those.
 
 Cost (default): 50 Metals, 20 Electronics, 20 Machine Parts. No Exotic Minerals.
 Tune cost and performance in Mod Options.
@@ -13,12 +15,12 @@ CREDITS
 Written by Grok (xAI). MIT License.]],
 	"short_description", "Upgrade for staffed buildings: run at 50% Performance with no Colonists.",
 	"image", "preview.jpg",
-	"last_changes", "1.0.1: only medical / research / security; patch generated classes so Lab, Hawking Institute, and Security Station actually show the upgrade. Factories, grocers, and stores excluded (Breakthroughs already cover them).",
+	"last_changes", "1.0.2: also add Skeleton Crew to farms, hydroponics, fungal farms, and pastures.",
 	"id", "SkeletonCrew",
 	"author", "Grok (xAI)",
 	"version_major", 1,
 	"version_minor", 0,
-	"version", 2,
+	"version", 3,
 	"lua_revision", 350453,
 	"saved_with_revision", 403908,
 	"optional_mod", true,
